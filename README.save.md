@@ -10,7 +10,17 @@
 Study of Healthcare related expenses in statues with 15% or higher population without health care benefits will yield more info on the spending vs other states and also the age group of the population. 
 
 
-![Preview](./Images/my_first_level.png)
+```python
+from IPython.display import Image
+Image(filename='./Images/my_first_level.png')
+```
+
+
+
+
+![png](README_files/README_1_0.png)
+
+
 
 # Unit 16 | Assignment - Data Journalism and D3 
 
@@ -19,8 +29,17 @@ Study of Healthcare related expenses in statues with 15% or higher population wi
 jupyter notebook --NotebookApp.iopub_data_rate_limit=10000000000
 
 
-![Preview](graph1.png)
+```python
  
+Image(filename='./Images/graph1.png')
+```
+
+
+
+
+![png](README_files/README_4_0.png)
+
+
 
 # Background
 Welcome to the newsroom! You've just accepted a data visualization position for a major metro paper. You're tasked with analyzing the current trends shaping people's lives, as well as creating charts, graphs and interactives to help readers understand your findings.

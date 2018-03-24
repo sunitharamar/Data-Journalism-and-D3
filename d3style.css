@@ -12,6 +12,9 @@
     background: #77747b;
     border: 0;
     border-radius: 10px;
+   /* Add this below my tooltip was flickering over mouse.
+     added the below */
+    pointer-events:none;
   }
   .axisText {
     font-family: sans-serif;
