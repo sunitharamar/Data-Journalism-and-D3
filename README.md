@@ -100,6 +100,10 @@ When your d3.html displays the graphic just as you'd like it to, embed it in ind
 You'll notice that at certain screen sizes, the iframe may cut off sections of your scatter plot. Don't worry about this unless you want to take on the final challenge.
 
 # How to run the app on visual studio:
+
+Note: also, remember that you’ll need to run a local web server to serve the HTML / CSV
+you’re just opening the HTML file from your computer directly (step 2)
+
 1) cd to your data directory:
     cd $Data-Journalism-and-D3/
     
