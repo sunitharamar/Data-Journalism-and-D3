@@ -9,8 +9,7 @@
 
 Study of Healthcare related expenses in statues with 15% or higher population without health care benefits will yield more info on the spending vs other states and also the age group of the population. 
 
-
-![Preview](my_first_level.png)
+![title](img/my_first_level.png) 
 
 # Unit 16 | Assignment - Data Journalism and D3 
 
@@ -18,9 +17,10 @@ Study of Healthcare related expenses in statues with 15% or higher population wi
 (PythonData) Sunithas-MacBook-Pro:Documents sunitharamakrishnan$ 
 jupyter notebook --NotebookApp.iopub_data_rate_limit=10000000000
 
-
-![Preview](graph1.png)
  
+![alt text](./journalism.gif "Title")
+ 
+
 # Background
 Welcome to the newsroom! You've just accepted a data visualization position for a major metro paper. You're tasked with analyzing the current trends shaping people's lives, as well as creating charts, graphs and interactives to help readers understand your findings.
 
@@ -31,14 +31,16 @@ The beat reporters will go out and investigate the relationship you find, sourci
 # Your Task
 Level 1: D3 Dabbler
 
-![Preview](correlation.png)
- 
+![title](img/correlation.png) 
+
  You need to find a correlation between two data variables, each measured state by state and taken from different data sources. You'll then visualize the correlation with a scatter plot and embed the graphic into an .html file. You need to accomplish these four steps.
 
 # 1 Find the Data 
  
+
+
+![title](img/findthedata.png) 
  
-![Preview](findthedata.png)
 
 Look for demographic information using the 2014 one-year estimates from the U.S. Census Bureau's American Community Survey. You can specify your information using the [American FactFinder tool](https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t). When searching through the data, be sure to select these options in the left sidebar:
 
@@ -50,21 +52,20 @@ When you select those filters, use the search bar to chose the demographic of yo
 
 Next, you'll search for data on health risks using 2014 survey data from the [Behavioral Risk Factor Surveillance](https://chronicdata.cdc.gov/Behavioral-Risk-Factors/BRFSS-2014-Overall/5ra3-ixqq) System. Note that we already filtered the data by year and break-out—you just need to find the behavioral risk you want to use. Filter the ###QUESTION### data on the site before downloading a specified .csv, or simply download the whole .csv file and use Excel's filtering tools.
 
- 
-![Preview](surveydata.png)
 
+![title](img/surveydata.png) 
  
 
 # Question
 ## Do you have any kind of health care coverage? NO
  
 
-![Preview](search_criteria1.png)
+![title](img/search_criteria1.png) 
 
-![Preview](search_criteria2.png) 
+![title](img/search_criteria2.png)
  
-![Preview](criteria_datafound.png)
 
+![title](img/criteria_datafound.png)
  
 
 # 2.  Format and Test the Data
@@ -73,8 +74,8 @@ Let's format your data for D3. With your two data types chosen, grab the value c
 ### To make sure you have a solid trend, you need to test for correlation with Excel's =CORREL() function. Aim for a value either less than -0.5 or more than 0.5—these values would indicate a moderate correlation and a story that might be worth pursuing (shoot for -0.75 or 0.75 if you're feeling super diligent).
 
 #### I took 7 data points of poverty and did the Excel's=CORREL() function' and found (poverty2 has value 0.6183)
- 
-![Preview](Final_dataset.png)
+
+![title](img/Final_dataset.png)
  
 
 If you don't find a value that matches, try at least four other demographic-risk combinations—if you can't find one that hits -0.5 or .5, just go with the most striking mix.
@@ -93,6 +94,7 @@ Generate this chart in the d3.html file in your assignment directory.
 
 #### Note: You'll need to use   "http-server" to display the graphic since you're pulling data in from a source outside of your app.js file.
 
+ 
 
 # 4. Embed into an iframe
 When your d3.html displays the graphic just as you'd like it to, embed it in index.html with an iframe. Add a quick written analysis of your data below the graphic.
@@ -100,10 +102,6 @@ When your d3.html displays the graphic just as you'd like it to, embed it in ind
 You'll notice that at certain screen sizes, the iframe may cut off sections of your scatter plot. Don't worry about this unless you want to take on the final challenge.
 
 # How to run the app on visual studio:
-
-Note: also, remember that you’ll need to run a local web server to serve the HTML / CSV
-you’re just opening the HTML file from your computer directly (step 2)
-
 1) cd to your data directory:
     cd $Data-Journalism-and-D3/
     
@@ -138,9 +136,12 @@ While the ticks on the axes allow us to infer approximate values for each circle
 
 8-tooltip
 Check out David Gotz's example to see how you should implement tooltips with d3-tip.
- 
-![Preview](screenshot2.png)
 
+
+
+ 
+
+![alt text](./d3-tooltip.gif "Title")
 
 # Level 3: Mobile Moxie (Tough, but Rewarding)
 9-responsive-d3.gif
